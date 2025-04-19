@@ -1,0 +1,105 @@
+body {
+     background-color: hsl(30, 38%, 92%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+}
+
+.container {
+     background-color: white;
+     width: 45vw;
+     height: auto;
+     display: flex;
+     justify-content: center;
+     border-radius: 15px;
+}
+
+.constainer2 {
+     padding: 1em 1.8em 1em 1.8em;
+
+     h1 {
+          font-family: "Fraunces", sans-serif;
+     }
+
+     .para1 {
+          font-family: "Montserrat", sans-serif;
+          font-size: 1.2em;
+          letter-spacing: 5px;
+     }
+
+     p {
+          letter-spacing: 1px;
+          font-size: 14px;
+          color: hsl(228, 12%, 48%);
+          line-height: 1.2em;
+     }
+}
+
+.firstimg {
+     border-radius: 10px;
+     width: 18vw;
+     height: auto;
+}
+
+button {
+     background-color: hsl(158, 36%, 37%);
+     color: white;
+     display: inline-block;
+     font-size: 1.6em;
+     width: 100%;
+     height: 8vh;
+     margin: 0.5em 0 0.5em 0;
+     border-radius: 6px;
+     border: none;
+
+     img {
+          margin-right: 0.5em;
+          height: 1em;
+     }
+}
+
+.span2 {
+     color: hsl(228, 12%, 48%);
+     font-size: 1.2em;
+     font-family: "Fraunces", sans-serif;
+}
+
+.span1 {
+     font-family: "Fraunces", sans-serif;
+     color: hsl(158, 36%, 37%);
+     font-weight: 700;
+     font-size: 2.3em;
+     margin-right: 1rem;
+
+}
+
+.attribution {
+     font-size: 11px;
+     text-align: center;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width:900px) {
+
+
+     .container {
+          margin: 2rem;
+          width: auto;
+          display: block;
+     }
+
+     .constainer2 {
+          padding: 1em;
+     }
+
+     .firstimg {
+          width: 100%;
+          height: 50vh;
+          object-fit: contain;
+     }
+}
